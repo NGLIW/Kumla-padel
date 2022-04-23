@@ -54,6 +54,8 @@ h1 {
     flex-direction: column;
     align-items: center;
     font-size:0.7rem;
+    padding: 2rem;
+    margin-top: -2rem;
    
 }
 
@@ -180,6 +182,7 @@ p {
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr; 
     margin-bottom: 5rem;
+    
 }
 
 .steps__img {
