@@ -49,9 +49,9 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 0.7rem;
-  padding: 2rem;
-  margin-top: -2rem;
+  font-size: 0.8rem;
+  padding: 3.2rem;
+  margin-top: -3rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -66,7 +66,7 @@ h2 {
   align-items: center;
   flex-direction: column;
   font-size: 0.9rem;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 h3 {
@@ -131,7 +131,7 @@ p {
   align-items: center;
 }
 
-.hero__text {
+.hero__knapp {
   display: grid;
   justify-items: center;
   align-items: center;
@@ -148,10 +148,10 @@ p {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  background: linear-gradient(#0b1b23, #13425A, #05202E, #0b1b23);
+  background: linear-gradient(#0b1b23, #0d2938, #0b435e, #0b1b23);
   margin-bottom: 5rem;
   margin-top: 5rem;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .text__event {
@@ -179,45 +179,6 @@ p {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-/* I Hallen */
-.hall__inner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  background: linear-gradient(#0b1b23, #13425A, #05202E, #0b1b23);
-  padding: 2rem;
-}
-
-.hall__image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.p__care {
-  color: var(--color-accent);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* kontakt */
-.kontakt__content {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
-  align-items: center;
-  margin-bottom: 5rem;
-}
-
-.kontakt__text {
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
 /* partner */
 .partner {
   display: flex;
@@ -231,8 +192,8 @@ p {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  background: linear-gradient(#0b1b23, #13425A, #05202E, #0b1b23);
-  padding: 2rem;
+  background: linear-gradient(#0b1b23, #0d2938, #0b435e, #0b1b23);
+  padding: 3rem;
 }
 
 .partner__image {
@@ -247,18 +208,52 @@ p {
   line-height: 2;
   color: var(--color-accent);
   display: flex;
-  padding: 6rem;
+  padding: 5rem;
   align-items: center;
   justify-content: center;
 }
 
-/* Footer */
-.footer {
-  display: flex;
+/* kontakt */
+.kontakt__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   align-items: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+}
+
+.kontakt__text {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 5rem;
+}
+
+/* I Hallen */
+.hall__inner {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  background: linear-gradient(#0b1b23, #0d2938, #0b435e, #0b1b23);
+  margin-top: -2rem;
+  padding: 3rem;
+}
+
+.p__text {
+  color: var(--color-accent);
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.hall__knapp {
+  display: grid;
+  justify-items: left;
+  align-items: left;
+  padding: 5rem;
+  margin-top: -7rem;
 }
 
 /*# sourceMappingURL=style.css.map */
